@@ -1,11 +1,15 @@
 
 Overview
+-
 
 This AI-powered application allows users to analyze multiple news articles simultaneously by providing URLs, then ask natural language questions to extract insights and information across sources.
 
+
 Project Highlights
+-
 
 ✅ Web Content Extraction & Processing
+
 
 Extracted and processed content from multiple news URLs using LangChain's WebBaseLoader with RecursiveCharacterTextSplitter for optimal context retention in a streamlined pipeline.
 
