@@ -24,7 +24,9 @@ Created an information extraction system with OpenAI's language models via LangC
 ✅ Interactive Streamlit Web Application
 
 Built an intuitive UI with Streamlit featuring URL inputs, processing indicators, and query functionality with real-time feedback mechanisms in a responsive layout.
+
 Tech Stack & Libraries Used
+-
 
 🔹 LangChain (WebBaseLoader, RecursiveCharacterTextSplitter, RetrievalQAWithSourcesChain)
 
@@ -38,6 +40,7 @@ Tech Stack & Libraries Used
 
 Installation and Setup
 Prerequisites
+-
 
 Python 3.7 or higher
 
@@ -71,6 +74,7 @@ you can access it at http://localhost:8501.
 
 
 Usage
+-
 
 Enter news article URLs in the input field (one URL per line) 
 
@@ -83,6 +87,7 @@ View the AI's responses with source attribution
 
 
 Features
+-
 
 Multi-source news analysis ,
 Natural language query capability ,
@@ -93,6 +98,7 @@ Responsive and intuitive user interface
 
 
 Troubleshooting
+-
 
 API Key Issues: Ensure your OpenAI API key is correctly set in the .env file.
 
