@@ -38,22 +38,30 @@ Python 3.7 or higher
 pip (Python package installer)
 
 Step 1: Clone the Repository
-bashCopygit clone [your-repository-url]
-cd [repository-name]
+
+bashCopygit clone [https://github.com/Binz00/news-research-tool.git]
+
+cd [news-research-tool]
 
 Step 2: Install Dependencies
 Install all required packages from the requirements.txt file:
+
 bashCopy  pip install -r requirements.txt
 
 Step 3: Set Up Environment Variables
 Create a .env file in the project root directory and add your OpenAI API key:
+
 CopyOPENAI_API_KEY=your_api_key_here
 You can get an API key from the OpenAI website.
 
 Step 4: Run the Application
 Start the Streamlit application:
+
 bashCopy streamlit run main.py
-The application will open in your default web browser. If it doesn't open automatically, you can access it at http://localhost:8501.
+
+The application will open in your default web browser. If it doesn't open automatically,
+you can access it at http://localhost:8501.
+
 Usage
 
 Enter news article URLs in the input field (one URL per line) 
