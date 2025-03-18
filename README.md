@@ -30,6 +30,8 @@ Tech Stack & Libraries Used
 
 🔹 Streamlit (Web UI)
 
+
+
 Installation and Setup
 Prerequisites
 
@@ -62,6 +64,8 @@ bashCopy streamlit run main.py
 The application will open in your default web browser. If it doesn't open automatically,
 you can access it at http://localhost:8501.
 
+
+
 Usage
 
 Enter news article URLs in the input field (one URL per line) 
@@ -72,6 +76,8 @@ Ask natural language questions about the articles in the query box
 
 View the AI's responses with source attribution
 
+
+
 Features
 
 Multi-source news analysis ,
@@ -79,6 +85,8 @@ Natural language query capability ,
 Source attribution for answers ,
 Session-based context retention ,
 Responsive and intuitive user interface
+
+
 
 Troubleshooting
 
